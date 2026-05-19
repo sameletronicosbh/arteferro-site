@@ -23,16 +23,23 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
+import heroImage from './assets/images/hero_gate_1779027330674.png';
+import aboutImage from './assets/images/welder_work_1779027345082.png';
+import project1Image from './assets/images/industrial_stairs_1779027359969.png';
+import project2Image from './assets/images/commercial_gate_1779027373890.png';
+import project3Image from './assets/images/metal_door_1779027393301.png';
+import project4Image from './assets/images/metal_structure_1779027408471.png';
+
 // Assets (Using the generated images)
 const IMAGES = {
-  hero: '/src/assets/images/hero_gate_1779027330674.png',
+  hero: heroImage,
   logo: 'https://i.ibb.co/KHC9s8W/LOGO-site-01.png',
-  about: '/src/assets/images/welder_work_1779027345082.png',
+  about: aboutImage,
   projects: [
-    { id: 1, src: '/src/assets/images/industrial_stairs_1779027359969.png', title: 'Escada Industrial' },
-    { id: 2, src: '/src/assets/images/commercial_gate_1779027373890.png', title: 'Portão Comercial' },
-    { id: 3, src: '/src/assets/images/metal_door_1779027393301.png', title: 'Porta Pivotante' },
-    { id: 4, src: '/src/assets/images/metal_structure_1779027408471.png', title: 'Estrutura Metálica' },
+    { id: 1, src: project1Image, title: 'Escada Industrial' },
+    { id: 2, src: project2Image, title: 'Portão Comercial' },
+    { id: 3, src: project3Image, title: 'Porta Pivotante' },
+    { id: 4, src: project4Image, title: 'Estrutura Metálica' },
   ]
 };
 
