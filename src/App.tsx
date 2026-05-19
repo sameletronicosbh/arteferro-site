@@ -114,7 +114,7 @@ export default function App() {
             ))}
             
             <a 
-              href="https://wa.me/5500000000000" 
+              href="https://wa.me/5531993116196" 
               className="bg-brand-orange text-white px-4 py-2 rounded-sm font-condensed uppercase tracking-wider text-[11px] hover:bg-brand-orange-dark transition-all hover:scale-105 flex items-center gap-1.5 shadow-lg shadow-brand-orange/20 ml-4"
             >
               <WhatsAppIcon size={14} />
@@ -165,7 +165,7 @@ export default function App() {
               ))}
               <div className="mt-auto">
                 <a 
-                  href="https://wa.me/5500000000000" 
+                  href="https://wa.me/5531993116196" 
                   className="bg-brand-orange text-white w-full py-4 rounded-sm font-condensed uppercase tracking-widest flex items-center justify-center gap-2 shadow-xl shadow-brand-orange/20"
                 >
                   <WhatsAppIcon size={20} />
@@ -213,7 +213,7 @@ export default function App() {
                 Soluções completas em portões, grades, portas e estruturas metálicas com qualidade industrial, segurança e acabamento profissional premium.
               </p>
               <div className="flex flex-col sm:flex-row items-center gap-4 mb-20 md:mb-32">
-                <a href="https://wa.me/5500000000000" className="btn-primary w-full sm:w-auto font-black shadow-xl shadow-brand-orange/30">
+                <a href="https://wa.me/5531993116196" className="btn-primary w-full sm:w-auto font-black shadow-xl shadow-brand-orange/30">
                   <WhatsAppIcon size={20} />
                   Solicitar Orçamento
                 </a>
@@ -398,7 +398,7 @@ export default function App() {
             </div>
 
             <div className="mt-16 text-center">
-              <a href="https://wa.me/5500000000000" className="bg-transparent border border-white/20 text-white px-8 py-4 rounded-sm font-condensed uppercase tracking-wider hover:border-brand-orange hover:text-brand-orange transition-all font-bold inline-flex items-center gap-2">
+              <a href="https://wa.me/5531993116196" className="bg-transparent border border-white/20 text-white px-8 py-4 rounded-sm font-condensed uppercase tracking-wider hover:border-brand-orange hover:text-brand-orange transition-all font-bold inline-flex items-center gap-2">
                 Ver Todos os Projetos
                 <Instagram size={18} />
               </a>
@@ -419,7 +419,7 @@ export default function App() {
               Fale com a Arteferro Industrial hoje mesmo e receba um orçamento personalizado para transformar seu projeto em realidade.
             </p>
             <a 
-              href="https://wa.me/5500000000000" 
+              href="https://wa.me/5531993116196" 
               className="bg-zinc-950 text-white px-12 py-5 rounded-sm font-display font-black text-xl uppercase tracking-widest hover:scale-105 transition-transform flex items-center gap-3 shadow-2xl"
             >
               <WhatsAppIcon size={24} />
@@ -443,7 +443,7 @@ export default function App() {
                     </div>
                     <div>
                       <span className="text-xs uppercase tracking-widest text-[var(--text-dim)] block mb-1">Telefone / WhatsApp</span>
-                      <p className="text-xl font-display font-bold">(11) 99999-9999</p>
+                      <p className="text-xl font-display font-bold">(31) 99311-6196</p>
                     </div>
                   </div>
 
@@ -463,7 +463,7 @@ export default function App() {
                     </div>
                     <div>
                       <span className="text-xs uppercase tracking-widest text-[var(--text-dim)] block mb-1">Endereço</span>
-                      <p className="text-xl font-display font-bold leading-tight">Distrito Industrial, Galpão 04 <br />São Paulo - SP</p>
+                      <p className="text-xl font-display font-bold leading-tight">Rua Tambaú - Estrela Dalva, Contagem - MG</p>
                     </div>
                   </div>
                 </div>
@@ -488,7 +488,7 @@ export default function App() {
                       <label className="text-[10px] uppercase tracking-widest font-bold text-[var(--text-main)]/60">WhatsApp</label>
                       <input 
                         type="tel" 
-                        placeholder="(00) 00000-0000"
+                        placeholder="(31) 99311-6196"
                         className="bg-[var(--bg-alt)] border border-[var(--border-color)] p-4 rounded-sm focus:border-brand-orange outline-none transition-colors text-[var(--text-main)] placeholder:text-[var(--text-dim)]/50"
                       />
                     </div>
@@ -599,7 +599,7 @@ export default function App() {
 
       {/* Persistent WhatsApp FAB */}
       <motion.a 
-        href="https://wa.me/5500000000000" 
+        href="https://wa.me/5531993116196" 
         className="fixed bottom-10 right-10 z-50 flex items-center bg-[#25D366] text-white rounded-full shadow-2xl overflow-hidden cursor-pointer"
         target="_blank"
         rel="noopener noreferrer"
