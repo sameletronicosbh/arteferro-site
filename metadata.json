@@ -1,0 +1,8 @@
+{
+  "name": "Arteferro Industrial",
+  "description": "Site institucional moderno e premium para serralheria industrial, focado em portões, estruturas e projetos sob medida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

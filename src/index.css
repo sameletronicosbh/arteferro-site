@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@600;700;800&family=Space+Grotesk:wght@600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-condensed: "Space Grotesk", sans-serif;
+  
+  --color-brand-orange: #ce4427;
+  --color-brand-orange-dark: #af3921;
+  --color-brand-dark: #0A0A0A;
+  --color-brand-gray: #1A1A1A;
+  --color-brand-light-gray: #262626;
+
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+:root {
+  --bg-main: #FDFDFD;
+  --bg-card: #FFFFFF;
+  --bg-alt: #F9FAFB;
+  --text-main: #0F172A;
+  --text-dim: #64748B;
+  --border-color: rgba(0, 0, 0, 0.08);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.text-gradient-orange {
+  background: linear-gradient(135deg, #ce4427 0%, #af3921 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.industrial-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.industrial-card:hover {
+  border-color: var(--color-brand-orange);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px -10px rgba(206, 68, 39, 0.2);
+}
+
+.btn-primary {
+  @apply bg-brand-orange hover:bg-brand-orange-dark px-8 py-4 rounded-sm font-condensed uppercase tracking-wider text-white transition-all active:scale-95 flex items-center justify-center gap-2;
+}
+
+.btn-outline {
+  @apply border border-current hover:border-brand-orange hover:text-brand-orange px-8 py-4 rounded-sm font-condensed uppercase tracking-wider transition-all active:scale-95 flex items-center justify-center gap-2;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-alt);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-orange);
+}
+
+html {
+  scroll-behavior: smooth;
+}
