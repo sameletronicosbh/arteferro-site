@@ -238,9 +238,9 @@ export default function App() {
           <div className="container mx-auto">
             <div className="bg-[var(--bg-card)]/80 backdrop-blur-xl border border-[var(--border-color)] grid grid-cols-1 lg:grid-cols-3 overflow-hidden shadow-2xl">
               {[
-                { title: 'Qualidade Garantida', desc: 'Rigor industrial em cada solda e acabamento.', icon: ShieldCheck },
-                { title: 'Projetos Exclusivos', desc: 'Design sob medida para sua necessidade.', icon: Wrench },
-                { title: 'Experiência & Confiança', desc: 'Anos de história no mercado metalúrgico.', icon: Award },
+                { title: 'DESIGN E ACABAMENTO', desc: 'Móveis desenvolvidos com atenção aos detalhes, materiais selecionados e acabamento premium.', icon: Sparkles },
+                { title: 'PROJETOS SOB MEDIDA', desc: 'Peças pensadas para integrar ambientes com personalidade, equilíbrio e funcionalidade.', icon: PencilRuler },
+                { title: 'ESTILO E FUNCIONALIDADE', desc: 'Design industrial contemporâneo para ambientes sofisticados e atemporais.', icon: Sofa },
               ].map((item, i) => (
                 <motion.div 
                   key={i}
