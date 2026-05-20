@@ -218,8 +218,8 @@ export default function App() {
                   <WhatsAppIcon size={20} />
                   Solicitar Orçamento
                 </a>
-                <a href="#servicos" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-sm font-condensed uppercase tracking-wider hover:bg-white hover:text-slate-900 transition-all font-black flex items-center justify-center gap-2 w-full sm:w-auto">
-                  Conhecer Serviços
+                <a href="#projetos" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-sm font-condensed uppercase tracking-wider hover:bg-white hover:text-slate-900 transition-all font-black flex items-center justify-center gap-2 w-full sm:w-auto">
+                  Ver Projetos
                   <ArrowRight size={20} />
                 </a>
                 
