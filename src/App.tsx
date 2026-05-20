@@ -203,15 +203,15 @@ export default function App() {
             >
               <div className="flex items-center gap-3 mb-6">
                 <div className="h-[2px] w-12 bg-brand-orange shadow-[0_0_15px_rgba(206,68,39,0.5)]" />
-                <span className="uppercase tracking-[0.4em] text-brand-orange font-condensed text-sm font-bold">Excelência em Serralharia</span>
+                <span className="uppercase tracking-[0.4em] text-brand-orange font-condensed text-sm font-bold">Design Industrial para Ambientes Sofisticados</span>
               </div>
               <h1 className="text-4xl md:text-7xl font-black mb-6 leading-[0.9] tracking-tight uppercase text-white drop-shadow-2xl">
-                Força,<br />
-                Design e<br />
-                <span className="text-brand-orange">durabilidade.</span>
+                Móveis Industriais<br />
+                para Espaços<br />
+                <span className="text-brand-orange">Modernos.</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-200 mb-10 leading-relaxed max-w-xl font-medium drop-shadow-md">
-                Soluções completas em portões, grades, portas e estruturas metálicas com qualidade industrial, segurança e acabamento profissional premium.
+                Peças desenvolvidas para valorizar ambientes através do equilíbrio entre design industrial, elegância e funcionalidade.
               </p>
               <div className="flex flex-col sm:flex-row items-center gap-4 mb-20 md:mb-32">
                 <a href="https://wa.me/5531993116196" className="btn-primary w-full sm:w-auto font-black shadow-xl shadow-brand-orange/30">
