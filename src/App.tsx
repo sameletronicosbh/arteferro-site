@@ -328,7 +328,7 @@ export default function App() {
                 >
                   <img 
                     src={IMAGES.about} 
-                    alt="Welder at work" 
+                    alt="Ambiente industrial contemporâneo" 
                     className="w-full aspect-[4/3] object-cover rounded-sm grayscale-[0.3] hover:grayscale-0 transition-all duration-700 shadow-2xl"
                     referrerPolicy="no-referrer"
                   />
@@ -344,26 +344,26 @@ export default function App() {
                 <div>
                   <span className="text-brand-orange uppercase tracking-[0.3em] font-condensed text-sm block mb-4">Sobre a Arteferro</span>
                   <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 leading-tight">
-                    Tradição metalúrgica <br />com visão <span className="text-brand-orange">inovadora.</span>
+                    Design industrial <br />para ambientes <span className="text-brand-orange">sofisticados.</span>
                   </h2>
                   <p className="text-lg text-[var(--text-dim)] leading-relaxed">
-                    A Arteferro Industrial nasceu da paixão pelo metal e pelo design. Desenvolvemos soluções metálicas sob medida para residências, comércios e indústrias, sempre focados em três pilares: resistência máxima, acabamento primoroso e compromisso inegociável com os prazos.
+                    A Arteferro desenvolve móveis industriais contemporâneos que unem metal, madeira e design minimalista para transformar ambientes com personalidade, sofisticação e funcionalidade.
                   </p>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-8">
                   <div>
                     <span className="text-2xl font-display font-bold block mb-2">500+</span>
-                    <span className="text-sm text-[var(--text-dim)] uppercase tracking-widest">Projetos Entregues</span>
+                    <span className="text-sm text-[var(--text-dim)] uppercase tracking-widest">Ambientes Transformados</span>
                   </div>
                   <div>
-                    <span className="text-2xl font-display font-bold block mb-2">100%</span>
-                    <span className="text-sm text-[var(--text-dim)] uppercase tracking-widest">Satisfação</span>
+                    <span className="text-2xl font-display font-bold block mb-2">Design</span>
+                    <span className="text-sm text-[var(--text-dim)] uppercase tracking-widest">Exclusivo & Sob Medida</span>
                   </div>
                 </div>
 
                 <a href="#contato" className="btn-outline w-fit font-bold border-[var(--border-color)]">
-                  Nossa História
+                  Conhecer a Marca
                   <ArrowRight size={18} />
                 </a>
               </div>
