@@ -19,7 +19,10 @@ import {
   ChevronRight,
   Maximize2,
   Moon,
-  Sun
+  Sun,
+  Sparkles,
+  PencilRuler,
+  Sofa
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
