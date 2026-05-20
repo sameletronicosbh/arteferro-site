@@ -278,17 +278,18 @@ export default function App() {
         </section>
 
         {/* Section: Serviços */}
-        <section id="servicos" className="py-32 px-6 bg-[#f4f1ec] text-slate-950 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(206,68,39,0.08),transparent_35%)] pointer-events-none" />
+        <section id="servicos" className="py-32 px-6 bg-slate-900 text-white relative overflow-hidden">
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 pointer-events-none" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(206,68,39,0.12),transparent_35%)] pointer-events-none" />
           <div className="container mx-auto relative z-10">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
               <div className="max-w-2xl">
                 <span className="text-brand-orange uppercase tracking-[0.3em] font-condensed text-sm block mb-4">O que fazemos</span>
-                <h2 className="text-4xl md:text-6xl font-black uppercase leading-none text-slate-950">
+                <h2 className="text-4xl md:text-6xl font-black uppercase leading-none">
                   Móveis que <br />transformam <br /><span className="text-brand-orange">ambientes.</span>
                 </h2>
               </div>
-              <p className="text-slate-600 max-w-sm mb-2 leading-relaxed font-medium">
+              <p className="text-slate-400 max-w-sm mb-2 leading-relaxed font-medium">
                 Criamos móveis em metal e madeira desenvolvidos para unir sofisticação, funcionalidade e personalidade aos ambientes.
               </p>
             </div>
@@ -302,12 +303,12 @@ export default function App() {
                 { title: 'Móveis Sob Medida', desc: 'Projetos personalizados desenvolvidos para valorizar cada espaço.', icon: PencilRuler },
                 { title: 'Decoração Industrial', desc: 'Elementos que combinam metal, madeira e minimalismo contemporâneo.', icon: LampDesk },
               ].map((service, i) => (
-                <div key={i} className="bg-white/80 backdrop-blur-sm p-10 group cursor-default shadow-xl border border-black/5 hover:border-brand-orange/40 hover:-translate-y-1 transition-all duration-300">
-                  <div className="mb-8 p-4 bg-[#efe7dc] w-fit group-hover:bg-brand-orange/10 transition-colors">
+                <div key={i} className="bg-slate-800/40 backdrop-blur-sm p-10 group cursor-default shadow-xl border border-white/5 hover:border-brand-orange/50 hover:-translate-y-1 transition-all duration-300">
+                  <div className="mb-8 p-4 bg-slate-800 w-fit group-hover:bg-brand-orange/20 transition-colors">
                     <service.icon className="text-brand-orange w-8 h-8" />
                   </div>
-                  <h3 className="text-2xl font-display uppercase tracking-tight mb-4 group-hover:text-brand-orange transition-colors font-bold text-slate-950">{service.title}</h3>
-                  <p className="text-slate-600 leading-relaxed font-medium">{service.desc}</p>
+                  <h3 className="text-2xl font-display uppercase tracking-tight mb-4 group-hover:text-brand-orange transition-colors font-bold">{service.title}</h3>
+                  <p className="text-slate-400 leading-relaxed font-medium">{service.desc}</p>
                 </div>
               ))}
             </div>

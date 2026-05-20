@@ -22,7 +22,12 @@ import {
   Sun,
   Sparkles,
   PencilRuler,
-  Sofa
+  Sofa,
+  Monitor,
+  LibraryBig,
+  Table2,
+  Laptop,
+  LampDesk
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -273,34 +278,36 @@ export default function App() {
         </section>
 
         {/* Section: Serviços */}
-        <section id="servicos" className="py-32 px-6 bg-slate-900 text-white relative">
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 pointer-events-none" />
+        <section id="servicos" className="py-32 px-6 bg-[#f4f1ec] text-slate-950 relative overflow-hidden">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(206,68,39,0.08),transparent_35%)] pointer-events-none" />
           <div className="container mx-auto relative z-10">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
               <div className="max-w-2xl">
                 <span className="text-brand-orange uppercase tracking-[0.3em] font-condensed text-sm block mb-4">O que fazemos</span>
-                <h2 className="text-4xl md:text-6xl font-black uppercase leading-none">
-                  Soluções completas <br />em <span className="text-brand-orange">serralheria.</span>
+                <h2 className="text-4xl md:text-6xl font-black uppercase leading-none text-slate-950">
+                  Móveis que <br />transformam <br /><span className="text-brand-orange">ambientes.</span>
                 </h2>
               </div>
-              <p className="text-slate-400 max-w-sm mb-2">Oferecemos o que há de mais moderno em metalurgia industrial e residencial, unindo funcionalidade a um design impactante.</p>
+              <p className="text-slate-600 max-w-sm mb-2 leading-relaxed font-medium">
+                Criamos móveis em metal e madeira desenvolvidos para unir sofisticação, funcionalidade e personalidade aos ambientes.
+              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { title: 'Portões de Alta Performance', desc: 'Basculantes, deslizantes e pivotantes automatizados com tecnologia silenciosa.', icon: Maximize2 },
-                { title: 'Grades e Gradis', desc: 'Proteção perimetral que valoriza a fachada com designs modernos e resistentes.', icon: ShieldCheck },
-                { title: 'Portas de Aço & Pivotantes', desc: 'Segurança reforçada para comércios e residências com acabamento impecável.', icon: ArrowRight },
-                { title: 'Estruturas Metálicas', desc: 'Projetos estruturais para galpões, mezaninos e reforços sob medida.', icon: Wrench },
-                { title: 'Corrimãos e Escadas', desc: 'Peças de design em ferro que garantem segurança e sofisticação ao ambiente.', icon: ArrowRight },
-                { title: 'Coberturas Metálicas', desc: 'Soluções em telhados térmicos e coberturas para garagens e áreas de lazer.', icon: ShieldCheck },
+                { title: 'Racks & Painéis', desc: 'Composições industriais para salas modernas com elegância e personalidade.', icon: Monitor },
+                { title: 'Estantes & Prateleiras', desc: 'Estruturas minimalistas em metal e madeira para ambientes sofisticados.', icon: LibraryBig },
+                { title: 'Mesas & Aparadores', desc: 'Peças versáteis desenvolvidas para unir funcionalidade e design contemporâneo.', icon: Table2 },
+                { title: 'Home Office', desc: 'Ambientes produtivos com estética industrial moderna e acabamento premium.', icon: Laptop },
+                { title: 'Móveis Sob Medida', desc: 'Projetos personalizados desenvolvidos para valorizar cada espaço.', icon: PencilRuler },
+                { title: 'Decoração Industrial', desc: 'Elementos que combinam metal, madeira e minimalismo contemporâneo.', icon: LampDesk },
               ].map((service, i) => (
-                <div key={i} className="bg-slate-800/40 backdrop-blur-sm p-10 group cursor-default shadow-xl border border-white/5 hover:border-brand-orange/50 transition-all duration-300">
-                  <div className="mb-8 p-4 bg-slate-800 w-fit group-hover:bg-brand-orange/20 transition-colors">
+                <div key={i} className="bg-white/80 backdrop-blur-sm p-10 group cursor-default shadow-xl border border-black/5 hover:border-brand-orange/40 hover:-translate-y-1 transition-all duration-300">
+                  <div className="mb-8 p-4 bg-[#efe7dc] w-fit group-hover:bg-brand-orange/10 transition-colors">
                     <service.icon className="text-brand-orange w-8 h-8" />
                   </div>
-                  <h3 className="text-2xl font-display uppercase tracking-tight mb-4 group-hover:text-brand-orange transition-colors font-bold">{service.title}</h3>
-                  <p className="text-slate-400 leading-relaxed font-medium">{service.desc}</p>
+                  <h3 className="text-2xl font-display uppercase tracking-tight mb-4 group-hover:text-brand-orange transition-colors font-bold text-slate-950">{service.title}</h3>
+                  <p className="text-slate-600 leading-relaxed font-medium">{service.desc}</p>
                 </div>
               ))}
             </div>
