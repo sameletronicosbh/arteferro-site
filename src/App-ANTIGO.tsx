@@ -47,10 +47,10 @@ const IMAGES = {
   logoColorida: logoColorida,
   about: aboutImage,
   projects: [
-    { id: 1, src: project1Image, title: 'Escada Industrial' },
-    { id: 2, src: project2Image, title: 'Portão Comercial' },
-    { id: 3, src: project3Image, title: 'Porta Pivotante' },
-    { id: 4, src: project4Image, title: 'Estrutura Metálica' },
+    { id: 1, src: project1Image, title: 'Painel & Rack Industrial' },
+    { id: 2, src: project2Image, title: 'Estante Contemporânea' },
+    { id: 3, src: project3Image, title: 'Home Office Industrial' },
+    { id: 4, src: project4Image, title: 'Aparador & Decoração' },
   ]
 };
 
@@ -375,8 +375,8 @@ export default function App() {
         <section id="projetos" className="py-32 px-6 bg-slate-950 text-white">
           <div className="container mx-auto">
             <div className="text-center mb-20">
-              <span className="text-brand-orange uppercase tracking-[0.3em] font-condensed text-sm block mb-4">Portfólio</span>
-              <h2 className="text-4xl md:text-6xl font-black uppercase">Trabalhos de <span className="text-brand-orange">Destaque.</span></h2>
+              <span className="text-brand-orange uppercase tracking-[0.3em] font-condensed text-sm block mb-4">Showroom</span>
+              <h2 className="text-4xl md:text-6xl font-black uppercase">Ambientes em <span className="text-brand-orange">Destaque.</span></h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
@@ -398,7 +398,7 @@ export default function App() {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity" />
                   
                   <div className="absolute bottom-10 left-10 right-10">
-                    <span className="text-brand-orange font-condensed text-xs uppercase tracking-widest block mb-2 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all font-bold">Serralheria Premium</span>
+                    <span className="text-brand-orange font-condensed text-xs uppercase tracking-widest block mb-2 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all font-bold">Design Industrial Contemporâneo</span>
                     <h3 className="text-2xl font-display uppercase font-bold group-hover:text-brand-orange transition-colors">{project.title}</h3>
                   </div>
 
@@ -411,7 +411,7 @@ export default function App() {
 
             <div className="mt-16 text-center">
               <a href="https://wa.me/5531993116196" className="bg-transparent border border-white/20 text-white px-8 py-4 rounded-sm font-condensed uppercase tracking-wider hover:border-brand-orange hover:text-brand-orange transition-all font-bold inline-flex items-center gap-2">
-                Ver Todos os Projetos
+                Explorar Portfólio
                 <Instagram size={18} />
               </a>
             </div>
