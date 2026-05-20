@@ -29,11 +29,14 @@ import project1Image from './assets/images/industrial_stairs_1779027359969.png';
 import project2Image from './assets/images/commercial_gate_1779027373890.png';
 import project3Image from './assets/images/metal_door_1779027393301.png';
 import project4Image from './assets/images/metal_structure_1779027408471.png';
+import logoBranca from './assets/images/logo_branca.png';
+import logoColorida from './assets/images/logo_colorida.png';
 
 // Assets (Using the generated images)
 const IMAGES = {
   hero: heroImage,
-  logo: 'https://i.ibb.co/KHC9s8W/LOGO-site-01.png',
+  logoBranca: logoBranca,
+  logoColorida: logoColorida,
   about: aboutImage,
   projects: [
     { id: 1, src: project1Image, title: 'Escada Industrial' },
@@ -90,11 +93,9 @@ export default function App() {
         <div className="container mx-auto px-6 flex items-center justify-between">
           <a href="#inicio" className="flex items-center z-50">
             <img 
-              src={IMAGES.logo} 
+              src={scrolled ? IMAGES.logoColorida : IMAGES.logoBranca} 
               alt="Arteferro Industrial Logo" 
-              className={`h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-105 ${
-                !scrolled && !isMenuOpen ? 'brightness-0 invert' : ''
-              }`}
+              className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-105"
               referrerPolicy="no-referrer"
             />
           </a>
